@@ -1,0 +1,40 @@
+# WHICH ITS - OPEN SOURCE PRODUCT DATABASE
+# Category: Control / Signal Controller
+# File: controller.yaml
+
+meta:
+  id: "econolite-cobalt" # unique-slug
+  product_name: "Cobalt"
+  manufacturer: "Econolite"
+  listing_status: "active" 
+ 
+
+hardware:
+  standard: "ATC" # ATC, NEMA TS2 Type 1, NEMA TS2 Type 2, 2070, 170
+  operating_system: "Linux" # Linux, OS-9, Proprietary
+  cpu_specs: "Freescale PowerQUICC III" # Optional but helpful for geeks
+  display: "7-inch Color LCD" # Touchscreen, 4x20 Character, etc.
+  
+connectivity:
+  ethernet_ports: 4 # Number of active ports
+  usb_ports: 2
+  sdlc_ports: 2 # For connecting to TS2 backplane
+  d_connector: true # Legacy support for TS1 cabinets?
+  wifi_enabled: true
+
+software_capabilities:
+  api_open: true # Can third parties write apps for it?
+  atspm_native: true # Does it log high-res data without a dongle?
+  cv_ready: true # V2X / Connected Vehicle support included?
+  logic_engine: "Logic Processor" # Name of the boolean logic tool (e.g., Logic Processor, Peer-to-Peer)
+  web_server: true # Can you configure it via a web browser?
+
+compatibility:
+  cabinets:
+    - "NEMA TS1"
+    - "NEMA TS2"
+    - "332 (with adapter)"
+  central_systems:
+    - "Centracs"
+    - "Tactics"
+    - "Kits"
