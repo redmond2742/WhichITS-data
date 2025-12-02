@@ -1,0 +1,31 @@
+categories:
+  - id: controllers
+    symbol: CTRL
+    name: Controllers
+    group: control
+    children:
+      - atc
+      - 2070
+      - 170
+      - cabinet
+
+  - id: detection
+    symbol: DET
+    name: Detection
+    group: detection
+    children:
+      - radar
+      - video
+      - loops
+      - thermal
+      - lidar
+
+  - id: software
+    symbol: SW
+    name: Software
+    group: software
+    children:
+      - atms
+      - signal_optimization
+      - cloud_platforms
+
