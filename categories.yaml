@@ -7,7 +7,6 @@ categories:
       - atc
       - 2070
       - 170
-      - cabinet
 
   - id: detection
     symbol: DET
