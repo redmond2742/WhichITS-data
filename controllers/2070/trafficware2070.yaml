@@ -1,0 +1,39 @@
+# WHICH ITS - OPEN SOURCE PRODUCT DATABASE
+# Category: Control / Signal Controller
+# File: trafficware-2070.yaml
+
+meta:
+  id: "trafficware-2070"
+  product_name: "2070 ATC Controller"
+  manufacturer: "Trafficware (Cubic ITS)"
+  listing_status: "active"
+
+hardware:
+  standard: "2070" # 2070 modular architecture
+  operating_system: "Linux"
+  cpu_specs: "Motorola/PowerPC 300 MHz (Type 2070-1C CPU Module)"
+  display: "4x20 Character Display" # Typical 2070 front panel
+
+connectivity:
+  ethernet_ports: 2
+  usb_ports: 1
+  sdlc_ports: 2
+  d_connector: true # Legacy TS1/170/2070 support
+  wifi_enabled: false
+
+software_capabilities:
+  api_open: false # 2070 codebase is not open API accessible
+  atspm_native: false # Requires add-on or vendor feature set
+  cv_ready: false
+  logic_engine: "ASC/3 Logic Processor"
+  web_server: true # Typically GUI-less, front panel / terminal only
+
+compatibility:
+  cabinets:
+    - "2070"
+    - "332/336"
+    - "NEMA TS2 (with 2070 front panel interface)"
+  central_systems:
+    - "ATMS.Now"
+
+
