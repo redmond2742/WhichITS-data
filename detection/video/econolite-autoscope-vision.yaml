@@ -1,0 +1,73 @@
+# WHICH ITS - OPEN SOURCE PRODUCT DATABASE
+# Category: Detection / Video Detection
+# File: econolite-autoscope-vision.yaml
+
+meta:
+  id: "ecolite-autoscope-vision"  # unique slug
+  product_name: "Autoscope Vision"
+  manufacturer: "Econolite"
+  listing_status: "active"
+
+hardware:
+  detection_type: "video"
+  form_factor: "Integrated Camera + Processor"
+  housing: "IP67 Weatherproof"
+  mounting: "Mast Arm, Luminaire Arm, Pole Mount"
+  image_sensor: "1/2.8'' Progressive Scan CMOS"
+  resolution: "1080p HD"
+  night_vision: "Low-Light Enhanced Mode"
+  frame_rate: "30 FPS"
+  lens: "Varifocal 3–11mm"
+  operating_temp: "-40°C to +75°C"
+  power_consumption: "12W typical"
+  communications:
+    ethernet: true
+    poe: true
+    serial: false
+
+capabilities:
+  detection_zones: "Up to 32 per approach"
+  detection_modes:
+    - presence
+    - count
+    - stop-bar
+    - advance detection
+    - bicycle detection
+  ai_detection: true
+  wrong_way_detection: false
+  pedestrian_detection: true
+  self_calibration: true
+  onboard_processing: true
+  streaming_video: true
+
+connectivity:
+  protocols_supported:
+    - NTCIP 1209
+    - Econolite Native Protocol
+  network:
+    ipv4: true
+    ipv6: true
+    vlans: true
+
+integration:
+  cabinet_interfaces:
+    - SDLC (via processor interface)
+    - Contact Closures (with expansion module)
+  central_systems:
+    - Centracs
+    - ATS/ATC Cabinets (via comm gateway)
+
+installation:
+  setup_method: "Web UI + Autoscope Setup Wizard"
+  calibration: "Automatic + Manual Adjustment"
+  tools_required:
+    - "Laptop with Ethernet"
+    - "PoE Injector (if no PoE switch)"
+    - "Mounting Bracket Hardware"
+
+compliance:
+  standards:
+    - FCC Part 15 Class A
+    - NEMA TS2 Environmental
+    - IP67
+
