@@ -5,8 +5,8 @@ categories:
     group: control
     children:
       - atc
-      - '2070'
-      - '170'
+      - 2070
+      - 170
 
   - id: detection
     symbol: DET
