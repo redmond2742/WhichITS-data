@@ -1,11 +1,11 @@
 # WHICH ITS - OPEN SOURCE PRODUCT DATABASE
 # Category: Control / Signal Controller
-# File: controller.yaml
+# File: basiclite.yaml
 
 meta:
-  id: "econolite-cobalt" # unique-slug
-  product_name: "Cobalt"
-  manufacturer: "Econolite"
+  id: "basiclite" # unique-slug
+  product_name: "basiclite"
+  manufacturer: "basiclite"
   listing_status: "active" 
  
 

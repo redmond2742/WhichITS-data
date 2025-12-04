@@ -3,9 +3,9 @@
 # File: trafficware-2070.yaml
 
 meta:
-  id: "trafficware-2070"
+  id: "vaporware-2070"
   product_name: "2070 ATC Controller"
-  manufacturer: "Trafficware (Cubic ITS)"
+  manufacturer: "Vaporware"
   listing_status: "active"
 
 hardware:
@@ -34,6 +34,6 @@ compatibility:
     - "332/336"
     - "NEMA TS2 (with 2070 front panel interface)"
   central_systems:
-    - "ATMS.Now"
+    - "ATMS"
 
 

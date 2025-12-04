@@ -1,11 +1,11 @@
 # WHICH ITS - OPEN SOURCE PRODUCT DATABASE
 # Category: Detection / Video Detection
-# File: econolite-autoscope-vision.yaml
+# File: oneeye.yaml
 
 meta:
-  id: "ecolite-autoscope-vision"  # unique slug
-  product_name: "Autoscope Vision"
-  manufacturer: "Econolite"
+  id: "oneeye"  # unique slug
+  product_name: "oneeye"
+  manufacturer: "basiclite"
   listing_status: "active"
 
 hardware:
@@ -54,11 +54,11 @@ integration:
     - SDLC (via processor interface)
     - Contact Closures (with expansion module)
   central_systems:
-    - Centracs
+    - ATMS
     - ATS/ATC Cabinets (via comm gateway)
 
 installation:
-  setup_method: "Web UI + Autoscope Setup Wizard"
+  setup_method: "Web UI + Desktop Setup Wizard"
   calibration: "Automatic + Manual Adjustment"
   tools_required:
     - "Laptop with Ethernet"
