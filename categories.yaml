@@ -5,8 +5,8 @@ categories:
     group: control
     children:
       - atc
-      - 2070
-      - 170
+      - '2070'
+      - "170"
 
   - id: detection
     symbol: DET
@@ -15,9 +15,18 @@ categories:
     children:
       - radar
       - video
-      - loops
+      - hybrid
       - thermal
       - lidar
+
+  - id: comms
+    symbol: CO
+    name: Commnications
+    group: communications
+    children:
+      - Edge Switch
+      - Core Switch
+      - Wireless Radio
 
   - id: software
     symbol: SW
