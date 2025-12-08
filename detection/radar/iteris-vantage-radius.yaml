@@ -1,0 +1,13 @@
+# WHICH ITS - OPEN SOURCE PRODUCT DATABASE
+# Category: Detection / Radar
+# File: iteris-vantage-radius.yaml
+
+meta:
+  id: "iteris-vantageradius"
+  product_name: "VantageRadius"
+  manufacturer: "Iteris"
+  detection_type: "Radar"
+
+  links:
+    website_url: "https://www.iteris.com/oursolutions/traffic-detection/vantageradius"
+    spec_pdf_url: "https://www.iteris.com/resources/187/download"
