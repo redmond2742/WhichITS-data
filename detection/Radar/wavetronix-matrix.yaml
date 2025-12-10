@@ -2,7 +2,7 @@ meta:
   id: "wavetronix-matrix"
   product_name: "Matrix"
   manufacturer: "Wavetronix"
-  type: ""
+  type: "Radar"
 
 links:
   website_url: "https://www.wavetronix.com/products"
