@@ -1,9 +1,9 @@
 meta:
   id: "yunex-heimdall"
-  product_name: ""
-  manufacturer: ""
+  product_name: "Heimdall"
+  manufacturer: "Yunex"
   type: ""
 
 links:
   website_url: ""
-  spec_pdf_url: ""
+  spec_sheet_url: ""
