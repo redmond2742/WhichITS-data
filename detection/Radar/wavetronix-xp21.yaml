@@ -1,9 +1,9 @@
 meta:
   id: "wavetronix-xp21"
-  product_name: ""
-  manufacturer: ""
+  product_name: "XP21"
+  manufacturer: "Wavetronix"
   type: ""
 
 links:
   website_url: ""
-  spec_pdf_url: ""
+  spec_sheet_url: ""
