@@ -1,9 +1,9 @@
 meta:
   id: "econolite-evo"
-  product_name: ""
-  manufacturer: ""
+  product_name: "EVO"
+  manufacturer: "Econolite"
   type: ""
 
 links:
   website_url: ""
-  spec_pdf_url: ""
+  spec_sheet_url: ""
