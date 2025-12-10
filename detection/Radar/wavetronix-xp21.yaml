@@ -2,7 +2,7 @@ meta:
   id: "wavetronix-xp21"
   product_name: "XP21"
   manufacturer: "Wavetronix"
-  type: ""
+  type: "Radar"
 
 links:
   website_url: "https://www.wavetronix.com/products"
