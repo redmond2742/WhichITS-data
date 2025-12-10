@@ -1,9 +1,9 @@
 meta:
   id: "wavetronix-advance"
-  product_name: ""
-  manufacturer: ""
+  product_name: "Advance"
+  manufacturer: "Wavetronix"
   type: ""
 
 links:
   website_url: ""
-  spec_pdf_url: ""
+  spec_sheet_url: ""
