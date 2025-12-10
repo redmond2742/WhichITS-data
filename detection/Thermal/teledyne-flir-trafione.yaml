@@ -1,0 +1,9 @@
+meta:
+  id: "teledyne-flir-trafione"
+  product_name: "TrafiOne"
+  manufacturer: "Teledyne Flir"
+  type: "Thermal"
+
+links:
+  website_url: "https://www.flir.com/products/trafione/?srsltid=AfmBOoruoZiLuv7DTDmwpLOkF_PYpmwmtTTMtJovzZ3uPZUuoLp1nIl6"
+  spec_sheet_url: "https://flir.netx.net/file/asset/8864/original/attachment"
