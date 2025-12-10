@@ -2,7 +2,7 @@ meta:
   id: "econolite-evo"
   product_name: "EVO"
   manufacturer: "Econolite"
-  type: ""
+  type: "Radar"
 
 links:
   website_url: "https://www.econolite.com/products/traffic-sensors/evo-radar/"
