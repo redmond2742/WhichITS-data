@@ -2,7 +2,7 @@ meta:
   id: "iteris-vantage-radius"
   product_name: "Vantage Radius"
   manufacturer: "Iteris"
-  type: ""
+  type: "Radar"
 
 links:
   website_url: "https://www.iteris.com/oursolutions/traffic-detection/vantageradius"
