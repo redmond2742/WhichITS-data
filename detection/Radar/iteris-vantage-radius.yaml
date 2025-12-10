@@ -1,9 +1,9 @@
 meta:
   id: "iteris-vantage-radius"
-  product_name: ""
-  manufacturer: ""
+  product_name: "Vantage Radius"
+  manufacturer: "Iteris"
   type: ""
 
 links:
   website_url: ""
-  spec_pdf_url: ""
+  spec_sheet_url: ""
