@@ -2,7 +2,7 @@ meta:
   id: "yunex-heimdall"
   product_name: "Heimdall"
   manufacturer: "Yunex"
-  type: ""
+  type: "Radar"
 
 links:
   website_url: "https://uk.yunextraffic.com/portfolio/detection-solutions/heimdall-above-ground-detection/"
