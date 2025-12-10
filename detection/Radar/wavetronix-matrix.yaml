@@ -1,9 +1,9 @@
 meta:
   id: "wavetronix-matrix"
-  product_name: ""
-  manufacturer: ""
+  product_name: "Matrix"
+  manufacturer: "Wavetronix"
   type: ""
 
 links:
   website_url: ""
-  spec_pdf_url: ""
+  spec_sheet_url: ""
