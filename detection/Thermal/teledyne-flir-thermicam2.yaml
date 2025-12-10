@@ -1,0 +1,9 @@
+meta:
+  id: "teledyne-flir-thermicam2"
+  product_name: "ThermiCam2"
+  manufacturer: "Teledyne Flir"
+  type: "Thermal"
+
+links:
+  website_url: "https://www.flir.com/products/thermicam2/"
+  spec_sheet_url: "https://flir.netx.net/file/asset/20125/original/attachment"
