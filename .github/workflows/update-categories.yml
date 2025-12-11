@@ -1,0 +1,59 @@
+name: Update Categories
+
+on:
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - 'detection/**'
+      - 'controllers/**'
+      - 'comms/**'
+      - 'software/**'
+      - 'apps/**'
+  workflow_dispatch:  # Allows manual triggering
+  schedule:
+    # Run daily at 2 AM UTC
+    - cron: '0 2 * * *'
+
+jobs:
+  update-categories:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+      
+      - name: Run update script
+        run: |
+          python3 update_categories.py
+      
+      - name: Check for changes
+        id: verify-changed-files
+        run: |
+          if [ -n "$(git status --porcelain categories.yaml)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Commit and push changes
+        if: steps.verify-changed-files.outputs.changed == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add categories.yaml
+          git commit -m "Auto-update categories.yaml with product counts and files"
+          git push
+
