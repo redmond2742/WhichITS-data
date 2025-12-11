@@ -1,0 +1,9 @@
+meta:
+  id: "teledyne-flir-trafiradar"
+  product_name: "TrafiRadar"
+  manufacturer: "Teledyne Flir"
+  type: "Hybrid"
+
+links:
+  website_url: "https://www.flir.com/products/trafiradar/?srsltid=AfmBOorrG78uc8IwPb7t5tRMS0cyFi36MYHD1BQSru8v9R88XZMQGBJL"
+  spec_sheet_url: "https://flir.netx.net/file/asset/17416/original/attachment"
