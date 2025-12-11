@@ -1,0 +1,9 @@
+meta:
+  id: "iteris-vantage-apex"
+  product_name: "Vantage Apex"
+  manufacturer: "Iteris"
+  type: "Hybrid"
+
+links:
+  website_url: "https://www.iteris.com/oursolutions/traffic-detection/vantage-apex"
+  spec_sheet_url: "https://www.iteris.com/resources/678/download"
