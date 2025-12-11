@@ -1,0 +1,9 @@
+meta:
+  id: "iteris-vantage-vector"
+  product_name: "Vantage Vector"
+  manufacturer: "Iteris"
+  type: "Hybrid"
+
+links:
+  website_url: "https://www.iteris.com/oursolutions/traffic-detection/vantage-vector"
+  spec_sheet_url: "https://www.iteris.com/resources/31/download"
