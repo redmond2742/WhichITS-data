@@ -21,6 +21,13 @@ categories:
   - id: radar
     name: Radar
     productCount: 6
+    productFiles:
+    - econolite-evo.yaml
+    - iteris-vantage-radius.yaml
+    - wavetronix-advance.yaml
+    - wavetronix-matrix.yaml
+    - wavetronix-xp21.yaml
+    - yunex-heimdall.yaml
   - id: video
     name: Video
     productCount: 0
@@ -30,6 +37,9 @@ categories:
   - id: thermal
     name: Thermal
     productCount: 2
+    productFiles:
+    - teledyne-flir-thermicam2.yaml
+    - teledyne-flir-trafione.yaml
   - id: lidar
     name: Lidar
     productCount: 0

@@ -7,16 +7,17 @@ Counts YAML files in the corresponding directories.
 import os
 import yaml
 from pathlib import Path
-from typing import Dict, List, Any
+from typing import Dict, List, Any, Tuple
 
-def count_yaml_files(directory_path: Path) -> int:
-    """Count the number of YAML files in a directory."""
+def get_yaml_files(directory_path: Path) -> Tuple[int, List[str]]:
+    """Get the count and list of YAML file names in a directory."""
     if not directory_path.exists() or not directory_path.is_dir():
-        return 0
+        return 0, []
     
-    yaml_files = list(directory_path.glob("*.yaml")) + list(directory_path.glob("*.yml"))
-    print(f"Found {len(yaml_files)} YAML files in {directory_path}")
-    return len(yaml_files)
+    yaml_files = sorted(list(directory_path.glob("*.yaml")) + list(directory_path.glob("*.yml")))
+    # Get just the filenames, sorted alphabetically
+    file_names = sorted([f.name for f in yaml_files])
+    return len(file_names), file_names
 
 def find_directory(base_path: Path, category_id: str, child_name: str) -> Path:
     """
@@ -99,11 +100,13 @@ def update_categories_with_counts(categories: List[Dict], base_path: Path) -> Li
                     child_id = child_dict.get("id", child_dict.get("name", "").lower())
                     child_name = child_dict.get("name", child_id.capitalize())
                 
-                # Find and count YAML files
+                # Find and get YAML files
                 child_dir = find_directory(base_path, category_id, child_id)
-                product_count = count_yaml_files(child_dir)
+                product_count, product_files = get_yaml_files(child_dir)
                 
                 child_dict["productCount"] = product_count
+                if product_files:  # Only add productFiles if there are files
+                    child_dict["productFiles"] = product_files
                 updated_children.append(child_dict)
             
             updated_category["children"] = updated_children
