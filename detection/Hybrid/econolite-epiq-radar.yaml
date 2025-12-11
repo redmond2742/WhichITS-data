@@ -1,0 +1,9 @@
+meta:
+  id: "econolite-epiq-radar"
+  product_name: "EPIQ Radar"
+  manufacturer: "Econolite"
+  type: "Hybrid"
+
+links:
+  website_url: "https://www.econolite.com/products/traffic-sensors/epiq-radar/"
+  spec_sheet_url: "https://www.econolite.com/support-page/technical-documentation/sensors/epiq-radar-datasheet/"
