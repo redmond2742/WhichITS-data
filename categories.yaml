@@ -1,0 +1,102 @@
+categories:
+- id: controllers
+  symbol: CTRL
+  name: Controllers
+  group: control
+  children:
+  - id: atc
+    name: ATC
+    productCount: 0
+  - id: '2070'
+    name: '2070'
+    productCount: 0
+  - id: '170'
+    name: '170'
+    productCount: 0
+- id: detection
+  symbol: DET
+  name: Detection
+  group: detection
+  children:
+  - id: radar
+    name: Radar
+    productCount: 7
+    productFiles:
+    - econolite-evo.yaml
+    - iteris-vantage-radius.yaml
+    - smartmicro-umrr-11.yaml
+    - wavetronix-advance.yaml
+    - wavetronix-matrix.yaml
+    - wavetronix-xp21.yaml
+    - yunex-heimdall.yaml
+  - id: video
+    name: Video
+    productCount: 5
+    productFiles:
+    - cubic-gridsmart.yaml
+    - econolite-autoscope-optivu.yaml
+    - econolite-autoscope-vision.yaml
+    - iteris-versicam.yaml
+    - miovision-detection.yaml
+  - id: hybrid
+    name: Hybrid
+    productCount: 6
+    productFiles:
+    - econolite-epiq-radar.yaml
+    - iteris-vantage-apex.yaml
+    - iteris-vantage-vector.yaml
+    - notraffic-ai-detection.yaml
+    - sensys-networks-multisens-intersection.yaml
+    - teledyne-flir-trafiradar.yaml
+  - id: thermal
+    name: Thermal
+    productCount: 2
+    productFiles:
+    - teledyne-flir-thermicam2.yaml
+    - teledyne-flir-trafione.yaml
+  - id: lidar
+    name: Lidar
+    productCount: 0
+- id: comms
+  symbol: CO
+  name: Commnications
+  group: communications
+  children:
+  - id: edge switch
+    name: Edge switch
+    productCount: 0
+  - id: core switch
+    name: Core switch
+    productCount: 0
+  - id: wireless radio
+    name: Wireless radio
+    productCount: 0
+- id: software
+  symbol: SW
+  name: Software
+  group: software
+  children:
+  - id: atms
+    name: Atms
+    productCount: 0
+  - id: signal_optimization
+    name: Signal_optimization
+    productCount: 0
+  - id: cloud_platforms
+    name: Cloud_platforms
+    productCount: 0
+  - id: signal performance measures
+    name: Signal performance measures
+    productCount: 0
+  - id: signal optimization control technology
+    name: Signal optimization control technology
+    productCount: 0
+  - id: simulation
+    name: Simulation
+    productCount: 0
+  - id: near miss video analytics
+    name: Near miss video analytics
+    productCount: 0
+  - id: signal optimization tools
+    name: Signal optimization tools
+    productCount: 0
