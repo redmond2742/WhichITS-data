@@ -1,0 +1,9 @@
+meta:
+  id: "miovision-detection"
+  product_name: "Detection"
+  manufacturer: "Miovision"
+  type: "Video"
+
+links:
+  website_url: "https://miovision.com/trafficlink/video-detection/"
+  spec_sheet_url: ""
