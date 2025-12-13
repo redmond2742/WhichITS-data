@@ -1,0 +1,9 @@
+meta:
+  id: "econolite-autoscope-optivu"
+  product_name: "Autoscope OptiVu"
+  manufacturer: "Econolite"
+  type: "Video"
+
+links:
+  website_url: "https://www.econolite.com/products/traffic-sensors/autoscope-optivu/"
+  spec_sheet_url: "https://www.econolite.com/support-page/technical-documentation/sensors/autoscope-optivu-datasheet/"
