@@ -1,0 +1,9 @@
+meta:
+  id: "iteris-versicam"
+  product_name: "VersiCam"
+  manufacturer: "Iteris"
+  type: "Video"
+
+links:
+  website_url: "https://www.iteris.com/oursolutions/traffic-detection/versicam"
+  spec_sheet_url: "https://www.iteris.com/resources/320/download"
