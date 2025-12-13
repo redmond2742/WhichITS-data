@@ -1,0 +1,9 @@
+meta:
+  id: "econolite-autoscope-vision"
+  product_name: "Autoscope Vision"
+  manufacturer: "Econolite"
+  type: "Video"
+
+links:
+  website_url: "https://www.econolite.com/products/traffic-sensors/autoscope/"
+  spec_sheet_url: "https://www.econolite.com/support-page/technical-documentation/sensors/autoscope-vision-datasheet/"
