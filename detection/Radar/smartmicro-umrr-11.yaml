@@ -1,9 +1,0 @@
-meta:
-  id: "smartmicro-umrr-11"
-  product_name: "UMRR-11"
-  manufacturer: "Smartmicro"
-  type: "Radar"
-
-links:
-  website_url: "https://www.smartmicro.com/traffic-sensor#c100"
-  spec_sheet_url: "https://www.smartmicro.com/fileadmin/media/Downloads/Traffic_Radar/Sensor_Data_Sheets__77_GHz_/UMRR-11_Type_132_TM_Data_Sheet.pdf"
