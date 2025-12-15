@@ -1,0 +1,9 @@
+meta:
+  id: "cubic-scout"
+  product_name: "Scout"
+  manufacturer: "Cubic"
+  type: "Firmware"
+
+links:
+  website_url: "https://www.cubic.com/transportation/products/intelligent-transportation-solutions/intelligent-systems"
+  spec_sheet_url: "https://www.cubic.com/sites/default/files/2024-03/Trafficware_Scout_85.5_Datasheet.pdf"
