@@ -1,0 +1,9 @@
+meta:
+  id: "econolite-eos"
+  product_name: "EOS"
+  manufacturer: "Econolite"
+  type: "Firmware"
+
+links:
+  website_url: "https://www.econolite.com/products/traffic-signal-controller/cobalt-traffic-signal-controller/"
+  spec_sheet_url: "https://www.econolite.com/support-page/technical-documentation/controllers/eos-datasheet/"
