@@ -1,0 +1,9 @@
+meta:
+  id: "fourth-dimension-traffic-d4"
+  product_name: "D4"
+  manufacturer: "Fourth Dimension Traffic"
+  type: "Firmware"
+
+links:
+  website_url: "https://fourthdimensiontraffic.com/about/about.html"
+  spec_sheet_url: "https://fourthdimensiontraffic.com/specs/D4-Traffic-Signal-Controller-Feature-Summary-1.6.pdf"
