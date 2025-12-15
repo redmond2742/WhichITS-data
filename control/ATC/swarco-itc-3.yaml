@@ -1,0 +1,9 @@
+meta:
+  id: "swarco-itc-3"
+  product_name: "ITC-3"
+  manufacturer: "Swarco"
+  type: "ATC"
+
+links:
+  website_url: "https://www.swarco.com/products/traffic-light-controllers/itc-3-traffic-controller"
+  spec_sheet_url: "https://www.swarco.com/sites/default/files/public/documents/2020-05/ITC-3%20Traffic%20Controller%20Datasheet_2020_0.pdf"
