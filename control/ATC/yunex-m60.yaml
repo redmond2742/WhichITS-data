@@ -1,0 +1,9 @@
+meta:
+  id: "yunex-m60"
+  product_name: "M60"
+  manufacturer: "Yunex"
+  type: "ATC"
+
+links:
+  website_url: ""
+  spec_sheet_url: "https://us.yunextraffic.com/wp-content/uploads/sites/2/2023/10/230714_UNRESTRICTED_M60_Datasheet.pdf"
