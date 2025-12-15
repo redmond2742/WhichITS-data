@@ -1,0 +1,9 @@
+meta:
+  id: "q-free-maxtime-ic"
+  product_name: "MAXTIME ic"
+  manufacturer: "Q-Free"
+  type: "Firmware"
+
+links:
+  website_url: "https://www.q-free.com/product/intelight-maxtime-ic/"
+  spec_sheet_url: "https://www.q-free.com/wp-content/uploads/2020/04/MAXTIME-ic.pdf"
