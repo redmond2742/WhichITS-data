@@ -33,8 +33,8 @@ def find_directory(base_path: Path, category_id: str, child_name: str) -> Path:
     ]
     
     # For controllers, try both the category_id and child_name
-    if category_id == "controllers":
-        base_dir = base_path / "controllers"
+    if category_id == "control":
+        base_dir = base_path / "control"
     elif category_id == "detection":
         base_dir = base_path / "detection"
     elif category_id == "comms":
