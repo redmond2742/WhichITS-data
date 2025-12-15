@@ -1,0 +1,9 @@
+meta:
+  id: "cubic-commander"
+  product_name: "Commander"
+  manufacturer: "Cubic"
+  type: "ATC"
+
+links:
+  website_url: ""
+  spec_sheet_url: "https://www.cubic.com/sites/default/files/2023-03/TW-COMMANDER-Shelf-Mount-Brochure.pdf"
