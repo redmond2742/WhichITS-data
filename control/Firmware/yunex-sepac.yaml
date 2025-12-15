@@ -1,0 +1,9 @@
+meta:
+  id: "yunex-sepac"
+  product_name: "SEPAC"
+  manufacturer: "Yunex"
+  type: "Firmware"
+
+links:
+  website_url: "https://us.yunextraffic.com/portfolio/intersection-control/sepac/"
+  spec_sheet_url: "https://assets.new.siemens.com/siemens/assets/api/uuid:1923c65c-608b-437b-bb5d-78e8f2aa8ce1/sepac-datasheet-2019.pdf"
