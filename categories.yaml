@@ -4,7 +4,7 @@ categories:
   name: Controllers
   group: control
   children:
-  - id: atc
+  - id: ATC
     name: ATC
     productCount: 6
     productFiles:
