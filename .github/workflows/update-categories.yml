@@ -7,9 +7,10 @@ on:
       - master
     paths:
       - 'detection/**'
-      - 'controllers/**'
+      - 'control/**'
       - 'comms/**'
       - 'software/**'
+      - 'cctv/**'
       - 'apps/**'
   workflow_dispatch:  # Allows manual triggering
   schedule:

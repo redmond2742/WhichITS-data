@@ -10,6 +10,7 @@ Products are organized by category and subcategory:
 - **Detection** - Vehicle detection systems (Radar, Thermal, Video, Hybrid, Lidar)
 - **Communications** - Network equipment (Edge Switch, Core Switch, Wireless Radio)
 - **Software** - ITS software solutions
+- **CCTV** - Closed-circuit television systems (PTZ)
 
 Each product is defined in a YAML file within its respective category directory.
 

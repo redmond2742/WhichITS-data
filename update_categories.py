@@ -41,6 +41,8 @@ def find_directory(base_path: Path, category_id: str, child_name: str) -> Path:
         base_dir = base_path / "comms"
     elif category_id == "software":
         base_dir = base_path / "software"
+    elif category_id == "cctv":
+        base_dir = base_path / "cctv"
     else:
         base_dir = base_path / category_id
     
@@ -87,6 +89,8 @@ def update_categories_with_counts(categories: List[Dict], base_path: Path) -> Li
                         child_name = "Hybrid"
                     elif child_id == "lidar":
                         child_name = "Lidar"
+                    elif child_id == "ptz":
+                        child_name = "PTZ"
                     else:
                         child_name = child.capitalize()
                     
