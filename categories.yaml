@@ -1,18 +1,28 @@
 categories:
-- id: controllers
+- id: control
   symbol: CTRL
-  name: Controllers
+  name: Control
   group: control
   children:
-  - id: atc
+  - id: ATC
     name: ATC
-    productCount: 0
-  - id: '2070'
-    name: '2070'
-    productCount: 0
-  - id: '170'
-    name: '170'
-    productCount: 0
+    productCount: 6
+    productFiles:
+    - cubic-commander.yaml
+    - econolite-cobalt.yaml
+    - oriux-atc-1000-gen-ii.yaml
+    - q-free-xn-2.yaml
+    - swarco-itc-3.yaml
+    - yunex-m60.yaml
+  - id: Firmware
+    name: Firmware
+    productCount: 5
+    productFiles:
+    - cubic-scout.yaml
+    - econolite-eos.yaml
+    - fourth-dimension-traffic-d4.yaml
+    - q-free-maxtime-ic.yaml
+    - yunex-sepac.yaml
 - id: detection
   symbol: DET
   name: Detection
