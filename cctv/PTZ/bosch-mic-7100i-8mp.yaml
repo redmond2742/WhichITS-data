@@ -1,0 +1,9 @@
+meta:
+  id: "bosch-mic-7100i-8mp"
+  product_name: "MIC 7100i - 8MP"
+  manufacturer: "Bosch"
+  type: "PTZ"
+
+links:
+  website_url: "https://commerce.keenfinity.tech/us/en/MIC-7100i-8MP/p/74414244875/"
+  spec_sheet_url: "https://keenfinity.blob.core.windows.net/public/documents/MIC_7100i_8MP_Data_sheet_enUS_75957690251.pdf"
