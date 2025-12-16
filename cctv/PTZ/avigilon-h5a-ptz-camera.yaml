@@ -1,9 +1,0 @@
-meta:
-  id: "avigilon-h5a-ptz-camera"
-  product_name: "H5A-PTZ Camera"
-  manufacturer: "Avigilon"
-  type: "PTZ"
-
-links:
-  website_url: "https://www.avigilon.com/security-cameras/h5a-ptz"
-  spec_sheet_url: "https://www.avigilon.com/fs/documents/avigilon-h5a-ptz-8mp-camera-datasheet-en.pdf"
