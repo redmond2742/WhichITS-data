@@ -1,0 +1,9 @@
+meta:
+  id: "axis-1468-le"
+  product_name: "1468-LE"
+  manufacturer: "Axis"
+  type: "Fixed"
+
+links:
+  website_url: "https://www.axis.com/products/axis-p1468-le"
+  spec_sheet_url: "https://www.axis.com/dam/public/1d/81/a0/datasheet-axis-p1468-le-bullet-camera-en-US-506674.pdf"
